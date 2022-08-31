@@ -1,0 +1,44 @@
+body {
+  color: #fff;
+  font: 87.5%/1.5em 'Open Sans', sans-serif;
+	background:url(img/bg.jpg)no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;}
+
+div.konten{
+	background: #ffffff;
+	width: 350px;
+	margin-top: 50px;
+	margin-left: 700px;
+	border-radius: 16px;
+	min-height: 250px;
+	overflow: hidden;
+}
+div.kepala{
+	background: #133774;
+	padding: 22px 22px;
+	height: 20px;
+}
+
+div.kepala h2.judul{
+	color: #fff;
+	font-weight: normal;
+	line-height: 30px;
+	display: inline-block;
+}
+div.artikel{
+	padding: 10px 22px 0;
+	color: #808080;
+}
+div.artikel div.isian{
+	margin: 16px 0;
+}
+div.artikel div.isian label, div.artikel{
+	display: block;
+}
+div.artikel div.grup label{
+	font-size: 13px;
+	margin-bottom: 10px;
+}

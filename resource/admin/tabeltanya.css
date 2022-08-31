@@ -1,0 +1,93 @@
+body {
+    background-color: #18BC9C;
+      background-size:100%;
+      background-repeat: no-repeat;
+      position: relative;
+      background-attachment: fixed;
+      font-family: 'Baskerville Old Face';
+	}
+	.title{
+		background-color: #2C3E50;
+		font-size: 40px;
+		margin-top: 10px;
+	}
+	
+
+  h1,h2,h3,h4,h5,h6 {
+  font-weight: 600;
+  font-family: 'Baskerville Old Face';
+}
+  table{
+	font-family: 'Baskerville Old Face';
+	color:#666;
+	text-shadow: 1px 1px 0px #fff;
+	background: #eaebec;
+	border:#ccc 1px solid;
+}
+table th{
+	padding: 15px 35px;
+	border-left: 1px solid #e0e0e0;
+	border-top: 1px solid #e0e0e0;
+	border-bottom: 1px solid #e0e0e0;
+	background: #ededed;
+}
+table th:first-child{
+	border-left: none;
+}
+table tr{
+	text-align: center;
+	padding-left: 20px;
+}
+table td{
+	padding: 15px 35px;
+	border-top: 1px solid #ffffff;
+	border-left: 1px solid #e0e0e0;
+	border-bottom: 1px solid #e0e0e0;
+	background: #fafafa;
+}
+table tr:last-child td{
+	border-bottom: 0;
+}
+
+table tr:hover td{
+	background: #8ACBE3;
+}
+
+    
+.form-item input{
+	border: #4682b4;
+	color: grey;
+	margin-top:11px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.2em;
+	height: 49px;
+	padding: 0 16px;
+	width: 30%;
+	padding-left: 55px;
+  
+  }
+
+.button-panel {
+	margin-bottom: 20px;
+	padding-top: 10px;
+	width: 20%;
+  }
+  
+  .button-panel .button {
+	background: #4682b4;
+	border: none;
+	color: #fff;
+	cursor: pointer;
+	height: 50px;
+	font-family: 'helvetica','Open Sans', sans-serif;
+	font-size: 1.2em;
+	text-align: center;
+	text-transform: uppercase;
+	transition: background 0.6s linear;
+	width: 100%;
+	margin-top:10px;
+  }
+  
+  .button:hover {
+	background: #6eb7cb;
+  }

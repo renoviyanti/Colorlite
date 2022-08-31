@@ -1,0 +1,80 @@
+/* CSS Document */
+
+body {
+	font: open Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	object-position: center;
+	background-color: #18BC9C;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+
+.title {
+	background-color: #2C3E50;
+	font-size: 30px;
+	padding: 20px;
+}
+
+h3 {
+	font-size: 40px;
+	font-weight: 600;
+	margin-bottom: 20px;
+	margin-left: 70px;
+	color: #2C3E50;
+	padding: 10px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+
+.hallo {
+	min-height: 200px;
+	border-radius: 10px;
+	position: center;
+	margin: 150px auto 0;
+	margin-left: 500px;
+	overflow: hidden;
+}
+
+.form-item{
+	width: 100%;
+}
+
+.form-item input{
+	
+	border-radius: 12px;
+	margin-top: 10px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 1.2em;
+	height: 50px;
+	padding: 0 16;
+	width: 30%;
+	padding-left: 55px;
+}
+
+.button-panel {
+	margin-bottom: 20px;
+	padding-top: 10px;
+	width: 20%;
+  }
+  
+  .button-panel .button {
+	background: #2C3E50;
+	border: none;
+	border-radius: 12px;
+	color: #fff;
+	cursor: pointer;
+	height: 50px;
+	font-family: 'helvetica','Open Sans', sans-serif;
+	font-size: 1.2em;
+	text-align: center;
+	text-transform: uppercase;
+	transition: background 0.6s linear;
+	width: 100%;
+	margin-top:10px;
+	margin-left:70px;
+  }
+  
+  .button:hover {
+	background: #6eb7cb;
+  }
